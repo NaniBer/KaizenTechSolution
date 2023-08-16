@@ -1,0 +1,44 @@
+const expertiseList=[
+    {
+        title: 'Custom Software Development',
+        text:'We specialize in developing customized software solutions that align perfectly with your business objectives.'
+    },
+    {
+        title: 'Web and Mobile App Development ',
+        text:'In the rapidly evolving digital landscape, having a strong online presence is essential.'
+    },
+    {
+        title: 'Cloud Solutions ',
+        text:'Embrace the power of the cloud with our advanced cloud solutions.'
+    },
+    {
+        title: 'IT Consulting',
+        text:'Our experienced consultants are here to provide strategic guidance and support to help you make the right technology decisions. '
+    },
+    {
+        title: 'Graphics Design',
+        text:'Our dedicated team of skilled designers combines creativity, technical proficiency, and a deep understanding.'
+    },
+
+]
+const Expertise=()=>{
+    return(
+        <div className="bg-black text-white text-center pt-10 pb-10">
+            <p className="text-xl tracking-wide">Our Expertise</p>
+            <div className="flex flex-col justify-center items-center">
+                <div className="mt-1.5 bg-red h-0.5 w-16"></div>
+                <p className="mt-5 w-1/2">At Kaizen Technology Solutions, we offer a wide range of services tailored to meet the unique needs of your business.</p>
+            </div>
+            <div className="mt-10">
+                <div className="border-2 border-red h-36 w-72">
+                    <p>Custom Software Development </p>
+                    <p>We specialize in developing customized software solutions that align perfectly with your business objectives.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    )
+} 
+
+export default Expertise
