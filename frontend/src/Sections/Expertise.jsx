@@ -29,11 +29,18 @@ const Expertise=()=>{
                 <div className="mt-1.5 bg-red h-0.5 w-16"></div>
                 <p className="mt-5 w-1/2">At Kaizen Technology Solutions, we offer a wide range of services tailored to meet the unique needs of your business.</p>
             </div>
-            <div className="mt-10">
-                <div className="border-2 border-red h-36 w-72">
-                    <p>Custom Software Development </p>
-                    <p>We specialize in developing customized software solutions that align perfectly with your business objectives.</p>
+            <div className="mt-10 grid grid-cols-3 justify-items-center items-center ">
+                {expertiseList.map((items)=>(
+
+                <div className=" mb-5 border-2 border-red h-72 w-64 p-6 flex flex-col justify-center items-center">
+                        <p className="mb-6">{items.title} </p>
+                        <p className="mb-6">{items.text}</p>
+                        <button>Learn more 
+                            <span className="ml-2 text-red font-bold">></span>
+                        </button>
+                    
                 </div>
+                ))}
             </div>
             
             

@@ -12,9 +12,9 @@ function App() {
       <div className="flex justify-center items-center mt-24 mb-24">
         <Intro />
       </div>
-      {/* <div className="">
+      <div className="">
         <Expertise />
-      </div> */}
+      </div>
       <WhyUs />
       <PartnerWithUs />
     </div>
