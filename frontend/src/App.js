@@ -4,6 +4,7 @@ import Intro from "./Sections/Intro";
 import Expertise from "./Sections/Expertise";
 import WhyUs from "./Sections/WhyUs";
 import PartnerWithUs from "./Sections/PartnerWithUs";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <WhyUs />
       <PartnerWithUs />
+      <Footer />
     </div>
   );
 }
