@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom"
 const expertiseList=[
     {
         title: 'Custom Software Development',
@@ -22,8 +23,13 @@ const expertiseList=[
 
 ]
 const Expertise=()=>{
+    const navigate=useNavigate()
+    const handleClick=()=>{
+        navigate('/details')
+
+    }
     return(
-        <div className="bg-black text-white text-center pt-10 pb-10">
+        <div className="bg-black text-white text-center pt-10 pb-10 h-screen" id="about">
             <p className="text-xl tracking-wide">Our Expertise</p>
             <div className="flex flex-col justify-center items-center">
                 <div className="mt-1.5 bg-red h-0.5 w-16"></div>
@@ -35,7 +41,7 @@ const Expertise=()=>{
                 <div className=" mb-5 border-2 border-red h-72 w-64 p-6 flex flex-col justify-center items-center">
                         <p className="mb-6">{items.title} </p>
                         <p className="mb-6">{items.text}</p>
-                        <button>Learn more 
+                        <button onClick={handleClick}>Learn more 
                             <span className="ml-2 text-red font-bold">></span>
                         </button>
                     

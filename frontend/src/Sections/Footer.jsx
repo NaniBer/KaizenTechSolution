@@ -1,6 +1,6 @@
 const Footer =()=>{
     return(
-        <div className="flex justify-around items-center mt-8 pb-10">
+        <div className="flex justify-around items-center mt-8 pb-10" id="contact">
             <img src={require("../Assets/klogo3.png")} className="h-16 ml-24" alt=""/>
             <div>
                 <div className="flex mb-3">
