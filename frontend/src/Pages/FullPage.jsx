@@ -4,6 +4,7 @@ import Expertise from "../Sections/Expertise";
 import WhyUs from "../Sections/WhyUs";
 import PartnerWithUs from "../Sections/PartnerWithUs";
 import Footer from "../Sections/Footer";
+import Portfolio from "../Sections/Portfolio";
 import ExpertiseDetails from "../Sections/ExpertiseDetails";
 import AboutUsDetails from "../Sections/AboutUsDetails";
 const FullPage=()=>{
@@ -13,7 +14,7 @@ const FullPage=()=>{
                 <div>
                 <TopComponent />
                 </div>
-            <div className="flex justify-center items-center mt-24 flex-1">
+            <div className="flex justify-center items-center flex-1">
                 <Intro />
             </div>
       </div>

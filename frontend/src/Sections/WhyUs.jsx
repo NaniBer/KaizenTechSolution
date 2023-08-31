@@ -1,67 +1,51 @@
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import whyUs from "../Data/whyUsData.json"
+
 
 const WhyUs=()=>{
+    const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
+
+
+
     return(
-        <div className="text-black text-center pt-10 pb-10">
+        <div className="text-black text-center pt-10 pb-36 ">
             <p className="text-xl font-bold tracking-wide">Why Us</p>
-            <div className="flex flex-col justify-center items-center">
-                <div className="mt-1.5 bg-red h-0.5 w-16">
-                </div>
-               
-            </div>
-            <div className="mx-56 mt-10 flex flex-col justify-center items-center">
-                
-                <div className="shadow-xl border-2 border-black text-left h-56 w-2/3 flex mr-10 mb-4 pl-5">
-                    <div>
-                        <p className="text-xl font-bold mt-5 mb-3">Tailored Solution</p>
-                    
-                        <p className="mr-4 text-lg">We understand that every business is unique. Our solutions are customized to meet your specific requirements, ensuring optimal results and maximum ROI.</p>
-                        
-                    </div>
-                    <img src={require("../Assets/Whyus1.png")} className="h-56" alt=""/>
-                </div>
-
+            <div className="flex flex-col justify-center items-center mb-20">
+                <div className="mt-1.5 bg-red h-0.5 w-16"></div></div>
             
-                <div className="shadow-xl border-2 border-black text-left h-56 w-2/3 flex mr-10 mb-4 pl-5">
-                        <div>
-                            <p className="text-xl font-bold mt-5 mb-3">Innovation Driven Approach</p>
-                        
-                            <p className="mr-4 text-lg">We understand that every business is unique. Our solutions are customized to meet your specific requirements, ensuring optimal results and maximum ROI.</p>
-                            
-                        </div>
-                        
-                </div>
+            
+            <Carousel responsive={responsive} className="lg:ml-48 ml-10 lg:mt-10">
+                {whyUs.map((items)=>(
+
+                <div className=" p-3 h-80 w-72 rounded-xl text-center hover:border-2 hover:border-red">
+                    <p className="text-2xl font-bold mt-5 mb-3">{items.title}</p>
                 
-                
-                <div className="shadow-xl border-2 border-black text-left h-56 w-2/3 flex mr-10 mb-4 ">
-                    <img src={require("../Assets/Whyus2.png")} className="h-56 pr-5" alt=""/>
-                    <div>
-                        <p className="text-xl font-bold mt-5 mb-3">Expert Team</p>
-                    
-                        <p className="mr-4 text-lg">We understand that every business is unique. Our solutions are customized to meet your specific requirements, ensuring optimal results and maximum ROI.</p>
-                        
-                    </div>
+                    <p className="mr-4 text-lg">{items.text}</p>
                     
                 </div>
+                ))}
+           
                 
-                <div className="shadow-xl border-2 border-black text-left h-56 w-2/3 flex mr-10 mb-4 pl-5">
-                    <div>
-                        <p className="text-xl font-bold mt-5 mb-3">Quality Assurance</p>
-                    
-                        <p className="mr-4 text-lg">We understand that every business is unique. Our solutions are customized to meet your specific requirements, ensuring optimal results and maximum ROI.</p>
-                        
-                    </div>
-                </div>
-
-
-                <div className="shadow-xl border-2 border-black text-left h-56 w-2/3 flex mr-10 mb-4 pl-5">
-                    <div>
-                        <p className="text-xl font-bold mt-5 mb-3">Timely Delivery</p>
-                        <p className="mr-4 text-lg">We understand that every business is unique. Our solutions are customized to meet your specific requirements, ensuring optimal results and maximum ROI.</p>
-                    </div>
-                    <img src={require("../Assets/Whyus3.png")} className="h-56" alt=""/>
-                </div>
-
-            </div>
+            </Carousel>
+            
 
         </div>
     )
