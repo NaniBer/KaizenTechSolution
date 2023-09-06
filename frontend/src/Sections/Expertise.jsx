@@ -8,7 +8,7 @@ const Expertise=()=>{
     }
     return(
         <div className="bg-black text-white text-center pt-10 pb-10 h-screen" id="about">
-            <p className="lg:text-xl tracking-wide">Our Expertise</p>
+            <p className="text-xl tracking-wide">Our Expertise</p>
             <div className="flex flex-col justify-center items-center">
                 <div className="mt-1.5 bg-red h-0.5 w-16"></div>
                 <p className="mt-5 w-1/2">At Kaizen Technology Solutions, we offer a wide range of services tailored to meet the unique needs of your business.</p>
