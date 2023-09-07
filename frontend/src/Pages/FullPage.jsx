@@ -4,9 +4,6 @@ import Expertise from "../Sections/Expertise";
 import WhyUs from "../Sections/WhyUs";
 import PartnerWithUs from "../Sections/PartnerWithUs";
 import Footer from "../Sections/Footer";
-import Portfolio from "../Sections/Portfolio";
-import ExpertiseDetails from "../Sections/ExpertiseDetails";
-import AboutUsDetails from "../Sections/AboutUsDetails";
 const FullPage=()=>{
     return (
         <div className="">
