@@ -26,6 +26,7 @@ const Footer =()=>{
                     <a href="/#about" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">About</a>
                     <a href="/portfolio" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Portfolio</a>
                     <a>Services</a>
+                    <a href="/ourteam" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Our team</a>
                     
 
 
