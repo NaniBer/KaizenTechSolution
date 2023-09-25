@@ -9,13 +9,11 @@ const DetailsPage=()=>{
     
                 <TopComponent />
             
-           
                 <AboutUsDetails />
             </div>
-      
-        <ExpertiseDetails />
-      <Footer />
-    </div>
+            <ExpertiseDetails />
+            <Footer />
+        </div>
     )
 }
 

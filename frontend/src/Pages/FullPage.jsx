@@ -9,21 +9,20 @@ const FullPage=()=>{
         <div className="">
             <div className="h-screen flex flex-col ">
                 <div>
-                <TopComponent />
+                    <TopComponent />
                 </div>
-            <div className="flex justify-center items-center flex-1">
-                <Intro />
+                <div className="flex justify-center items-center flex-1">
+                    <Intro />
+                </div>
             </div>
-      </div>
-      <div>
-      <div className="flex w-full absolute lg:-bottom-44 md:-bottom-20 -bottom-28 justify-center items-center" >
-        <Expertise />
-      </div>
-      <WhyUs />
-      </div>
-      <PartnerWithUs />
-      <Footer />
-
+            <div>
+                <div className="flex w-full absolute lg:-bottom-44 md:-bottom-20 -bottom-28 justify-center items-center" >
+                    <Expertise />
+                </div>
+                <WhyUs />
+            </div>
+            <PartnerWithUs />
+            <Footer />
     </div>
     )
 }
