@@ -16,8 +16,8 @@ const Footer =()=>{
     return(
         <div className="flex lg:justify-around justify-center items-center pb-10 mt-10 lg:flex-row flex-col " id="contact">
             <div className="flex flex-col justify-center items-center">
-                <img src={require("../Assets/kaizenlogo.png")} className="h-16" alt=""/>
-                <p className="mt-10 tracking-wider lg:text-left text-center text-sm lg:text-base">Welcome to the Future <br></br> Welcome to Kaizen Technologies Solutions</p>
+                <img src={require("../Assets/klogo6.png")} className="lg:h-24 h-16" alt=""/>
+                <p className="mt-3 tracking-wider lg:text-left text-center text-sm lg:text-base">Welcome to the Future <br></br> Welcome to Kaizen Technologies Solutions</p>
             </div>
             <div>
                 <p className="lg:text-left text-center mt-5 lg:mt-0 text-sm lg:text-base">Quick Links</p>
