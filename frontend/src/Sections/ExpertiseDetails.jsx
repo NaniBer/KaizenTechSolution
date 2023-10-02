@@ -1,7 +1,7 @@
 import detailsList from "../Data/expertiseDetailsData.json"
 const ExpertiseDetails=()=>{
     return(
-        <div className="bg-black text-white pt-10 pb-15 lg:px-72 px-8 ">
+        <div className="bg-black text-white pt-10 pb-15 lg:px-72 px-8 " id="expertise">
             <p className="text-xl text-center tracking-wide">Our Expertise</p>
             <div className="flex flex-col justify-center items-center">
                 <div className="mt-1.5 bg-red h-0.5 w-16"></div>

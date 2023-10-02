@@ -31,7 +31,6 @@ const TopComponent=()=>{
 
       {isOpen && (
         <div className="mt-2 py-2 w-48 bg-white rounded-lg shadow-xl">
-          {/* Menu items */}
           <a
             href="/#home"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
@@ -39,7 +38,7 @@ const TopComponent=()=>{
             Home
           </a>
           <a
-            href="/#about"
+            href="/details"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
           >
             About
@@ -63,7 +62,7 @@ const TopComponent=()=>{
              <img src={require("../Assets/klogo4.png")} className="lg:h-12 h-8 lg:ml-20 ml-8 lg:mr-0 mr-10" alt=""/>
             <div className=" text-white lg:text-lg text-sm flex ">
                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/#home">Home</a></p>
-                 <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/#about">About</a></p>
+                 <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/details">About</a></p>
                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/portfolio">Portfolio</a></p>
                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="#contact">Contact</a></p>
              </div>

@@ -6,10 +6,10 @@ const Footer =()=>{
         window.open("https://twitter.com/kaizenEthiopia?t=PDZbkLZmIqVyqi3ef8qJAg&s=35","_blank")
     }
     const handleInsta=()=>{
-        window.open("https://www.instagram.com/kaizen__tech/","_blank")
+        window.open("https://www.instagram.com/kaizen.et/","_blank")
     }
     const handleLinkedIn=()=>{
-        window.open("https://www.linkedin.com/company/kaizen-tech-solutions","_blank")
+        window.open("https://www.linkedin.com/company/kaizen-digital-solutions/","_blank")
     }
 
 
@@ -17,7 +17,7 @@ const Footer =()=>{
         <div className="flex lg:justify-around justify-center items-center pb-10 mt-10 lg:flex-row flex-col " id="contact">
             <div className="flex flex-col justify-center items-center">
                 <img src={require("../Assets/klogo6.png")} className="lg:h-24 h-16" alt=""/>
-                <p className="mt-3 tracking-wider lg:text-left text-center text-sm lg:text-base">Welcome to the Future <br></br> Welcome to Kaizen Technologies Solutions</p>
+                <p className="mt-3 tracking-wider lg:text-left text-center text-sm lg:text-lg">Welcome to the Future <br></br> Welcome to Kaizen Digital Solutions</p>
             </div>
             <div>
                 <p className="lg:text-left text-center mt-5 lg:mt-0 text-sm lg:text-base">Quick Links</p>
@@ -36,7 +36,7 @@ const Footer =()=>{
             </div>
             <div className="mt-4 lg:mt-0">
                 <div className="flex mb-3">
-                    <img src={require("../Assets/phone.png")} className="h-8" alt=""/>
+                    <img src={require("../Assets/phone.png")} className="h-8 mt-4" alt=""/>
                     <p className="text-sm lg:text-base">
                           +(251) 97 827 5000<br></br> +(251) 96 594 1144 <br></br>+(251) 92 531 2037<br></br>
                           </p>
