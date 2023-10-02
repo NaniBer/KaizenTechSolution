@@ -16,7 +16,7 @@ const FullPage=()=>{
                 </div>
             </div>
             <div>
-                <div className="flex w-full absolute lg:-bottom-44 md:-bottom-20 -bottom-28 justify-center items-center" >
+                <div className="flex w-full absolute lg:-bottom-44 md:-bottom-20 -bottom-8 justify-center items-center" >
                     <Expertise />
                 </div>
                 <WhyUs />

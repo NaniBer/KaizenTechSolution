@@ -9,16 +9,23 @@ module.exports = {
       },
     },
     screens: {
+      ssm: { min: "360px", max: "411px" },
+
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
       md: "768px",
       // => @media (min-width: 768px) { ... }
 
+      // lapSmall:"1025px",
+      // lapBig:"1280",
+
       lg: "1025px",
       // => @media (min-width: 1024px) { ... }
 
-      xl: "1280px",
+      llg: "1280px",
+
+      xl: "1801px",
       // => @media (min-width: 1280px) { ... }
 
       "2xl": "1536px",
