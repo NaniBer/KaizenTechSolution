@@ -50,6 +50,12 @@ const TopComponent=()=>{
             Portifolio
           </a>
           <a
+            href="/ourteam"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+          >
+            Our Team
+          </a>
+          <a
             href="#contact"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
           >
@@ -64,6 +70,7 @@ const TopComponent=()=>{
                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/#home">Home</a></p>
                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/details">About</a></p>
                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/portfolio">Portfolio</a></p>
+                                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="/ourteam">Our Team</a></p>
                  <p className="mr-3 lg:mr-8 cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red "><a href="#contact">Contact</a></p>
              </div>
          </div>

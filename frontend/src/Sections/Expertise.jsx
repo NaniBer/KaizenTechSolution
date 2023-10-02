@@ -15,7 +15,7 @@ const Expertise=()=>{
     }
 
     return(
-        <div className="flex lg:m-10 lg:ml-20 justify-around bg-white lg:h-64 h-12 items-center lg:p-32 py-16 pl-3 w-11/12 ">
+        <div className="flex lg:m-10 lg:ml-20 justify-around bg-white lg:h-64 md:h-12 h-8 items-center lg:p-32 py-16 pl-3 w-11/12 ">
 
             <div className="lg:w-24 w-16 cursor-pointer" onClick={handleClick}>
                 <img src={require("../Assets/software.png")} className="lg:h-20 lg:ml-2 ml-5 h-6 ssm:ml-3 lg:hover:h-24 hover:h-10 ssm:hover:h-6"/>

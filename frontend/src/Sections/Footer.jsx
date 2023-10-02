@@ -19,12 +19,13 @@ const Footer =()=>{
                 <img src={require("../Assets/klogo6.png")} className="lg:h-24 h-16" alt=""/>
                 <p className="mt-3 tracking-wider lg:text-left text-center text-sm lg:text-lg">Welcome to the Future <br></br> Welcome to Kaizen Digital Solutions</p>
             </div>
-            <div>
+            <div className="lg:block hidden">
                 <p className="lg:text-left text-center mt-5 lg:mt-0 text-sm lg:text-base">Quick Links</p>
                 <span className="flex flex-col lg:mt-8 lg:text-left text-center text-sm lg:text-base">
                     <a href="/#home" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Home</a>
                     <a href="/#about" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">About</a>
                     <a href="/portfolio" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Portfolio</a>
+                    <a href="/ourteam" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Our Teams</a>
                     <a>Services</a>
                     <a href="/ourteam" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Our team</a>
                     

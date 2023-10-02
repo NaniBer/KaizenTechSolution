@@ -26,7 +26,7 @@ const WhyUs=()=>{
 
 
     return(
-        <div className="text-black text-center lg:pt-52 pt-36 pb-36 bg-grey ">
+        <div className="text-black text-center lg:pt-52 md:pt-36 pt-10 pb-36 bg-grey ">
             <p className="text-xl font-bold tracking-wide">Why Us</p>
             <div className="flex flex-col justify-center items-center md:mb-20 mb-10">
                 <div className="mt-1.5 bg-red h-0.5 w-16"></div></div>

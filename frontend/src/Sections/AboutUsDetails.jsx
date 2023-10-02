@@ -1,7 +1,7 @@
 const AboutUsDetails=()=>{
     return(
 
-        <div className="lg:px-16 llg:px-10">
+        <div className="lg:px-16 llg:px-10 ">
             <p className="text-center tracking-wide mb-3 lg:mt-24 m-12 text-2xl font-semibold">About us </p>
             <div className="flex flex-col justify-center items-center">
                 <div className="mt-1.5 bg-red h-0.5 w-16 mb-10"></div>
