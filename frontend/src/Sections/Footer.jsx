@@ -23,7 +23,7 @@ const Footer =()=>{
                 <p className="lg:text-left text-center mt-5 lg:mt-0 text-sm lg:text-base">Quick Links</p>
                 <span className="flex flex-col lg:mt-8 lg:text-left text-center text-sm lg:text-base">
                     <a href="/#home" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Home</a>
-                    <a href="/#about" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">About</a>
+                    <a href="/details" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">About</a>
                     <a href="/portfolio" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Portfolio</a>
                     <a href="/ourteam" className="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red">Our Teams</a>
                     <a>Services</a>

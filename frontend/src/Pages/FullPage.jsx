@@ -7,7 +7,7 @@ import Footer from "../Sections/Footer";
 const FullPage=()=>{
     return (
         <div className="">
-            <div className="h-screen flex flex-col ">
+            <div className="sm:portrait:h-screen lg:h-screen flex flex-col ">
                 <div>
                     <TopComponent />
                 </div>
@@ -16,7 +16,7 @@ const FullPage=()=>{
                 </div>
             </div>
             <div className="">
-                <div className="flex w-full md:absolute lg:-bottom-44 md:-bottom-8 justify-center items-center" >
+                <div className="flex w-full md:absolute lg:-bottom-44 md:-bottom-10 sm:landscape:-bottom-96 lg:landscape:-bottom-44 justify-center items-center" >
                     <Expertise />
                 </div>
                 <WhyUs />

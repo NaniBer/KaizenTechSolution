@@ -20,7 +20,7 @@ module.exports = {
       // lapSmall:"1025px",
       // lapBig:"1280",
 
-      lg: "1025px",
+      lg: "1024px",
       // => @media (min-width: 1024px) { ... }
 
       llg: "1280px",

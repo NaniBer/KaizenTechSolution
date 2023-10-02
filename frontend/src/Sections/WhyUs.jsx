@@ -35,7 +35,7 @@ const WhyUs=()=>{
             <Carousel responsive={responsive} className="lg:ml-48 ml-10 lg:mt-10">
                 {whyUs.map((items)=>(
 
-                <div className=" p-3 h-80 w-72 rounded-xl text-center hover:border-2 hover:border-red ml-6">
+                <div className=" p-3 h-80 w-72 rounded-xl text-center hover:border-2  hover:border-red ml-6">
                     <p className="text-2xl font-bold mt-5 mb-3">{items.title}</p>
                 
                     <p className="mr-4 text-lg">{items.text}</p>
